@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Decodificador</title>
+        <link rel="icon" type="imagem/jpg" href="https://cdn-icons-png.flaticon.com/512/3521/3521095.png" />
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img src="imgs/logo.jpg" class="logo img-responsive">            
+        </header>
+
+        <main>
+            <section class="sec-texto">
+                <textarea  class="texto" placeholder="Digite seu texto "></textarea>
+                
+                <p class="aviso" >&#128712; Apenas letras minúsculas e sem acento</p>
+
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button> 
+
+                </div>         
+                
+            </section>
+            <section class="sec-mensagem">
+                <textarea class="msg-encriptada" readonly ></textarea>          
+                <div class="itens">
+                    <img src="imgs/imagem.jpg">
+                    <h3>Sua mensagem aparecerá aqui</h3>
+                    <p>Digite o texto que deseja criptografar ou descriptografar no campo ao lado.</p>
+                </div>
+                <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright"> Aline Silva Ferreira &copy; 2023</p>
+            <a href="https://github.com/AlineSilvaFerreira"> <img src="imgs/github.jpg"> </a>
+            <a href="https://www.linkedin.com/in/aline-silva-ferreira-38a84b115/"><img src="imgs/linkedin.png"></a>
+
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
