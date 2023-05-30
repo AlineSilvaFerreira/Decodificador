@@ -76,9 +76,4 @@ function btnCopiar() {
     
   } 
 
-  btnCriptografa.addEventListener("click", function() {
-    textarea.style.display = "block";
-    botaoCopiar.style.display = 'block';
-    imagem.style.display = 'none'
-    mensagem.style.display = 'none'
-});
+
